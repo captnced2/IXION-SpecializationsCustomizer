@@ -31,7 +31,45 @@ public class Patches
     {
         public static void Postfix(BuildingInstance __instance)
         {
-            if (sList == null) sList = Resources.FindObjectsOfTypeAll<SpecializationList>().First();
+            if (sList == null)
+            {
+                sList = Resources.FindObjectsOfTypeAll<SpecializationList>().First();
+                foreach (var tier in Plugin.specializationTiers)
+                    switch (tier.Specialization)
+                    {
+                        case SpecializationType.Space:
+                        {
+                            sList.space.t1RequiredScore = tier.Tier1;
+                            sList.space.t2RequiredScore = tier.Tier2;
+                            break;
+                        }
+                        case SpecializationType.Food:
+                        {
+                            sList.food.t1RequiredScore = tier.Tier1;
+                            sList.food.t2RequiredScore = tier.Tier2;
+                            break;
+                        }
+                        case SpecializationType.Industry:
+                        {
+                            sList.industry.t1RequiredScore = tier.Tier1;
+                            sList.industry.t2RequiredScore = tier.Tier2;
+                            break;
+                        }
+                        case SpecializationType.Population:
+                        {
+                            sList.population.t1RequiredScore = tier.Tier1;
+                            sList.population.t2RequiredScore = tier.Tier2;
+                            break;
+                        }
+                        case SpecializationType.Recycling:
+                        {
+                            sList.recycling.t1RequiredScore = tier.Tier1;
+                            sList.recycling.t2RequiredScore = tier.Tier2;
+                            break;
+                        }
+                    }
+            }
+
             if (!__instance.Data.name.Contains("Supplies"))
                 foreach (var building in Plugin.buildings)
                     if (__instance.Data.name.Equals(building.Name))

@@ -32,7 +32,30 @@ public class PluginConfig
 
             b.Specializations = specializations;
         }
+
+        foreach (var s in Plugin.specializationTiers)
+        {
+            String section = "Tiers." + s.Specialization;
+            s.Tier1 = Plugin.config.Bind(section, "tier1", s.Tier1).Value;
+            s.Tier2 = Plugin.config.Bind(section, "tier2", s.Tier2).Value;
+        }
     }
+}
+
+public class SpecializationTier()
+{
+    public SpecializationTier(SpecializationType specialization, int tier1, int tier2) : this()
+    {
+        Specialization = specialization;
+        Tier1 = tier1;
+        Tier2 = tier2;
+    }
+
+    public SpecializationType Specialization { get; set; }
+
+    public int Tier1 { get; set; }
+
+    public int Tier2 { get; set; }
 }
 
 public class Building()

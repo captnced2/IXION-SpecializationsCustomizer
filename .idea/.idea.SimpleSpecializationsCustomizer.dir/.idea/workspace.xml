@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47998e0-592a-4f12-99a0-5ac0f45abd47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="f47998e0-592a-4f12-99a0-5ac0f45abd47" name="Changes" comment="Version 1.0.0">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Patches.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patches.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleSpecializationsCustomizer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleSpecializationsCustomizer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PluginConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PluginConfig.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +69,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/c5/aa33da88/TorusSectorState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/c8/59c468fa/UIWindowBuilding.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8bdea7cd6fc1c76ef696473f3620afb6188f44aee7f79ea4f785d106ee92c9a/BasePlugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Admin/RiderProjects/SimpleSpecializationsCustomizer/Patches.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Admin/RiderProjects/SimpleSpecializationsCustomizer/Plugin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Admin/RiderProjects/SimpleSpecializationsCustomizer/Plugin.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -149,7 +148,7 @@
       <workItem from="1733232443213" duration="2928000" />
       <workItem from="1733235416271" duration="253000" />
       <workItem from="1733244341255" duration="8229000" />
-      <workItem from="1733329031564" duration="16527000" />
+      <workItem from="1733329031564" duration="17998000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -175,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733246732803</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 1.0.0">
+      <option name="closed" value="true" />
+      <created>1733347606132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733347606132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +223,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Changed default values of buildings with no specialization tags to None" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed default values of buildings with no specialization tags to None" />
+    <MESSAGE value="Version 1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

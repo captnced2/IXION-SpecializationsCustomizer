@@ -13,22 +13,34 @@ public class Plugin : BasePlugin
 {
     private const string Guid = "captnced.SimpleSpecializationsCustomizer";
     private const string Name = "SimpleSpecializationsCustomizer";
-    private const string Version = "1.0.0";
+    private const string Version = "1.1.0";
     internal new static ManualLogSource Log;
     internal static ConfigFile config;
     internal static HashSet<Building> buildings;
+    internal static HashSet<SpecializationTier> specializationTiers;
 
     public override void Load()
     {
         Log = base.Log;
         config = Config;
         defineBuildings();
+        defineTiers();
         PluginConfig.init();
         var harmony = new Harmony(Guid);
         harmony.PatchAll();
         foreach (var patch in harmony.GetPatchedMethods())
             Log.LogInfo("Patched " + patch.DeclaringType + ":" + patch.Name);
         Log.LogInfo("Loaded \"" + Name + "\" version " + Version + "!");
+    }
+
+    private void defineTiers()
+    {
+        specializationTiers = new HashSet<SpecializationTier>();
+        specializationTiers.Add(new SpecializationTier(SpecializationType.Industry, 300, 800));
+        specializationTiers.Add(new SpecializationTier(SpecializationType.Population, 400, 1000));
+        specializationTiers.Add(new SpecializationTier(SpecializationType.Space, 450, 700));
+        specializationTiers.Add(new SpecializationTier(SpecializationType.Food, 400, 800));
+        specializationTiers.Add(new SpecializationTier(SpecializationType.Recycling, 300, 800));
     }
 
     private void defineBuildings()
