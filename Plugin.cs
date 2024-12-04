@@ -8,11 +8,12 @@ using HarmonyLib;
 namespace SimpleSpecializationsCustomizer;
 
 [BepInPlugin(Guid, Name, Version)]
+[BepInProcess("IXION.exe")]
 public class Plugin : BasePlugin
 {
     private const string Guid = "captnced.SimpleSpecializationsCustomizer";
     private const string Name = "SimpleSpecializationsCustomizer";
-    private const string Version = "1.2.1-beta";
+    private const string Version = "1.0.0";
     internal new static ManualLogSource Log;
     internal static ConfigFile config;
     internal static HashSet<Building> buildings;
@@ -70,9 +71,9 @@ public class Plugin : BasePlugin
             new HashSet<SpecializationType> { SpecializationType.Population }));
         buildings.Add(
             new Building("CellHousing", 16, new HashSet<SpecializationType> { SpecializationType.Population }));
-        buildings.Add(new Building("CryonicCenter", 0, new HashSet<SpecializationType>{ SpecializationType.None }));
-        buildings.Add(new Building("Infirmary", 0, new HashSet<SpecializationType>{ SpecializationType.None }));
-        buildings.Add(new Building("HealthCenter", 0, new HashSet<SpecializationType>{ SpecializationType.None }));
+        buildings.Add(new Building("CryonicCenter", 0, new HashSet<SpecializationType> { SpecializationType.None }));
+        buildings.Add(new Building("Infirmary", 0, new HashSet<SpecializationType> { SpecializationType.None }));
+        buildings.Add(new Building("HealthCenter", 0, new HashSet<SpecializationType> { SpecializationType.None }));
         buildings.Add(new Building("Refectory", 24,
             new HashSet<SpecializationType> { SpecializationType.Population, SpecializationType.Food }));
         buildings.Add(new Building("InsectFarm", 32, new HashSet<SpecializationType> { SpecializationType.Food }));

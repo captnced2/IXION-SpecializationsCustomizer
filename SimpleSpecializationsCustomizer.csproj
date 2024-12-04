@@ -1,40 +1,46 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <AssemblyName>SimpleSpecializationsCustomizer</AssemblyName>
-    <Product>My first plugin</Product>
-    <Version>1.0.0</Version>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <LangVersion>latest</LangVersion>
-    <RestoreAdditionalProjectSources>
-      https://api.nuget.org/v3/index.json;
-      https://nuget.bepinex.dev/v3/index.json;
-      https://nuget.samboy.dev/v3/index.json
-    </RestoreAdditionalProjectSources>
-    <RootNamespace>SimpleSpecializationsCustomizer</RootNamespace>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <AssemblyName>SimpleSpecializationsCustomizer</AssemblyName>
+        <Product>My first plugin</Product>
+        <Version>1.0.0</Version>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>latest</LangVersion>
+        <RestoreAdditionalProjectSources>
+            https://api.nuget.org/v3/index.json;
+            https://nuget.bepinex.dev/v3/index.json;
+            https://nuget.samboy.dev/v3/index.json
+        </RestoreAdditionalProjectSources>
+        <RootNamespace>SimpleSpecializationsCustomizer</RootNamespace>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile" />
-    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile"/>
+        <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="BulwarkStudios.Stanford">
-      <HintPath>libs\BulwarkStudios.Stanford.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2Cppmscorlib">
-      <HintPath>libs\Il2Cppmscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem.Core">
-      <HintPath>libs\Il2CppSystem.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Serialization">
-      <HintPath>libs\Sirenix.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+    <ItemGroup>
+        <Reference Include="BulwarkStudios.Stanford">
+            <HintPath>libs\BulwarkStudios.Stanford.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2Cppmscorlib">
+            <HintPath>libs\Il2Cppmscorlib.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2CppSystem.Core">
+            <HintPath>libs\Il2CppSystem.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="Sirenix.Serialization">
+            <HintPath>libs\Sirenix.Serialization.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.TextMeshPro">
+            <HintPath>libs\Unity.TextMeshPro.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+            <HintPath>libs\UnityEngine.UI.dll</HintPath>
+        </Reference>
+    </ItemGroup>
 </Project>

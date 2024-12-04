@@ -1,8 +1,7 @@
 ﻿using System.Linq;
-using BulwarkStudios.Stanford.Common.Players;
 using BulwarkStudios.Stanford.Common.Specialization;
 using BulwarkStudios.Stanford.Torus.Buildings;
-using BulwarkStudios.Stanford.Torus.Sectors;
+using BulwarkStudios.Stanford.Torus.UI;
 using HarmonyLib;
 using Il2CppSystem.Collections.Generic;
 using UnityEngine;
@@ -46,27 +45,22 @@ public class Patches
         }
     }
 
-    [HarmonyPatch(typeof(CommandPlayerConstructBuilding), nameof(CommandPlayerConstructBuilding.OnStart))]
-    public static class PlayerConstructBuildingPatcher
+    [HarmonyPatch(typeof(UIWindowBuilding), nameof(UIWindowBuilding.BeforeOpen))]
+    public static class UIWindowBuildingPatcher
     {
-        public static void Postfix(CommandPlayerConstructBuilding __instance)
+        public static void Postfix(UIWindowBuilding __instance)
         {
-            Plugin.Log.LogInfo(__instance.building.Data.name + " - " + __instance.building.Data.specializationScore +
-                               ":");
-            foreach (var s in __instance.building.Data.specializationTags) Plugin.Log.LogInfo("    " + s.name);
-            foreach (var b in Plugin.buildings)
+            __instance.effectBuilding.txtEffectDesc.text = "Specialization score: " +
+                                                           __instance.building.Data.specializationScore + "\n\n" +
+                                                           __instance.effectBuilding.txtEffectDesc.text;
+            Plugin.Log.LogInfo(__instance.building.Data.name);
+            if (__instance.building.Data.name.Equals("DataListeningCenter"))
             {
-                Plugin.Log.LogInfo(b.Name + " - " + b.SpecializationScore + ":");
-                foreach (var s in b.Specializations) Plugin.Log.LogInfo("    " + s);
-            }
-
-            foreach (var sectorBehaviour in Resources.FindObjectsOfTypeAll<TorusSectorBehaviour>())
-            {
-                Plugin.Log.LogInfo(sectorBehaviour.name + ":");
-                foreach (var specializations in sectorBehaviour.State.specializations.specializationStates)
-                    Plugin.Log.LogInfo("    " + specializations.key.name + ": " + specializations.value.score + " - " +
-                                       specializations.key.t1RequiredScore + " - " +
-                                       specializations.key.t2RequiredScore);
+                __instance.effectBuilding.txtEffectDesc.text += "\n\nSector specialization scores:\n";
+                foreach (var pair in __instance.building.GetSector().state.specializations.specializationStates)
+                    __instance.effectBuilding.txtEffectDesc.text +=
+                        pair.key.name + ": " + pair.value.score + " - T1: " + pair.key.t1RequiredScore + ", T2: " +
+                        pair.key.t2RequiredScore + "\n";
             }
         }
     }

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f47998e0-592a-4f12-99a0-5ac0f45abd47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleSpecializationsCustomizer.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patches.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Patches.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleSpecializationsCustomizer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleSpecializationsCustomizer.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +38,41 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d70b02d44f54a8aadbcf209be2b8e0e5c7800/02/d1336316/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d70b02d44f54a8aadbcf209be2b8e0e5c7800/4a/69712471/Delegate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d70b02d44f54a8aadbcf209be2b8e0e5c7800/50/2e37f306/DelegateData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d70b02d44f54a8aadbcf209be2b8e0e5c7800/67/2a173e09/String.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d70b02d44f54a8aadbcf209be2b8e0e5c7800/9c/5c8043b1/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d70b02d44f54a8aadbcf209be2b8e0e5c7800/ac/1b46ca59/Action`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d70b02d44f54a8aadbcf209be2b8e0e5c7800/be/3bbe506f/KeyValuePair`2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6bbef1fc8791477f923def06e6cfcb4f43400/53/c4c0ec23/Il2CppObjectBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6bbef1fc8791477f923def06e6cfcb4f43400/54/5900eecd/Il2CppStringArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6bbef1fc8791477f923def06e6cfcb4f43400/6b/22fbe2eb/IL2CPP.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c16e1e9fdc745869db4ab47b7b8df0e345000/09/c5baedc7/RectTransform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c16e1e9fdc745869db4ab47b7b8df0e345000/42/2e6aec6f/Transform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c16e1e9fdc745869db4ab47b7b8df0e345000/b8/d9382671/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c16e1e9fdc745869db4ab47b7b8df0e345000/bd/73118ed0/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c085dc8e86384478a7a548c799c9b5f840800/07/73214263/HarmonyAfter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c085dc8e86384478a7a548c799c9b5f840800/08/c779128f/GeneralExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c085dc8e86384478a7a548c799c9b5f840800/67/c75e733a/HarmonyException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c085dc8e86384478a7a548c799c9b5f840800/d2/401f946d/Harmony.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d147b7c55e0348f98f6c2be271007942cc200/17/33cace02/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dd601e4ca8404f2c873e55fdefb34c7274508/3d/1c881da9/MethodBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/0b/33e4b00f/BuildingActionFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/0d/248d61c1/BuildingActionStateFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/1f/2c0e7810/SpecializationState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/22/af4d3a65/CommandPlayerConstructBuilding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/40/3c54a5bd/UIWindowBuildingActionHeader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/50/5f0951ba/UIWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/5d/c04314a8/BuildingState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/63/6d417185/TorusSectorStateSpecializations.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/65/734dddbf/SpecializationData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/82/db65d93f/BuildingInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/9b/4a47cebe/UIWindowBuidingTags.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/a5/26ff5758/UIBuildingTag.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/c5/aa33da88/TorusSectorState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e1d8f412f3d14b359f17c18fcc8feccd10d4400/c8/59c468fa/UIWindowBuilding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8bdea7cd6fc1c76ef696473f3620afb6188f44aee7f79ea4f785d106ee92c9a/BasePlugin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -53,23 +85,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Native Executable.Ixion.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rider.code.cleanup.on.save": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Native Executable.Ixion.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rider.code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Native Executable.Ixion">
     <configuration name="Ixion" type="RunNativeExe" factoryName="Native Executable">
       <option name="EXE_PATH" value="D:/SteamLibrary/steamapps/common/IXION/Ixion.exe" />
@@ -116,7 +148,8 @@
       <workItem from="1733167840462" duration="6522000" />
       <workItem from="1733232443213" duration="2928000" />
       <workItem from="1733235416271" duration="253000" />
-      <workItem from="1733244341255" duration="991000" />
+      <workItem from="1733244341255" duration="8229000" />
+      <workItem from="1733329031564" duration="16527000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -134,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733235580292</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed default values of buildings with no specialization tags to None">
+      <option name="closed" value="true" />
+      <created>1733246732803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733246732803</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +215,8 @@
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Changed default values of buildings with no specialization tags to None" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed default values of buildings with no specialization tags to None" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
