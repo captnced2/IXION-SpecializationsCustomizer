@@ -34,4 +34,4 @@ The default required scores to reach the specific specialization tiers in a sect
 (Different names because of code: Mess Hall -> Refectory, Legislative Center -> LawEnforcement)
 
 # Issues and Questions
-If you find any bugs please report it in the issues tab and for any questions simply ask in the [DOLOS A.E.C.](https://discord.gg/UMtuJrSmY3) modding channel (with ping pls) or message me directly (@captnced).
+If you find any bugs please report them in the issues tab and for any questions simply ask in the [DOLOS A.E.C.](https://discord.gg/UMtuJrSmY3) modding channel (with ping pls) or message me directly (@captnced).
