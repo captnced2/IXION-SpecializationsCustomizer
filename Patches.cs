@@ -88,10 +88,10 @@ public class Patches
     {
         public static void Postfix(UIWindowBuilding __instance)
         {
+            if (__instance.effectBuilding is null) return;
             __instance.effectBuilding.txtEffectDesc.text = "Specialization score: " +
                                                            __instance.building.Data.specializationScore + "\n\n" +
                                                            __instance.effectBuilding.txtEffectDesc.text;
-            Plugin.Log.LogInfo(__instance.building.Data.name);
             if (__instance.building.Data.name.Equals("DataListeningCenter"))
             {
                 __instance.effectBuilding.txtEffectDesc.text += "\n\nSector specialization scores:\n";
