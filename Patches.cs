@@ -5,6 +5,7 @@ using BulwarkStudios.Stanford.Torus.UI;
 using HarmonyLib;
 using Il2CppSystem.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace SimpleSpecializationsCustomizer;
 
@@ -88,7 +89,17 @@ public class Patches
     {
         public static void Postfix(UIWindowBuilding __instance)
         {
-            if (__instance.effectBuilding is null) return;
+            if (__instance.effectBuilding is null)
+            {
+                var effect = GameObject.Find("UI Window Building Effect");
+                var newEffect = Object.Instantiate(effect,
+                    __instance.transform.FindChild("ContentBuilding").FindChild("Viewport").FindChild("Content")
+                        .FindChild("Built").transform);
+                newEffect.transform.SetAsFirstSibling();
+                __instance.effectBuilding = newEffect.GetComponent<UIWindowBuildingActionEffect>();
+                newEffect.GetComponent<VerticalLayoutGroup>().enabled = true;
+            }
+
             __instance.effectBuilding.txtEffectDesc.text = "Specialization score: " +
                                                            __instance.building.Data.specializationScore + "\n\n" +
                                                            __instance.effectBuilding.txtEffectDesc.text;
@@ -99,6 +110,13 @@ public class Patches
                     __instance.effectBuilding.txtEffectDesc.text +=
                         pair.key.name + ": " + pair.value.score + " - T1: " + pair.key.t1RequiredScore + ", T2: " +
                         pair.key.t2RequiredScore + "\n";
+            }
+
+            if (__instance.transform.name.Equals("UI Window Building Docking Bay"))
+            {
+                __instance.effectBuilding.txtEffectDesc.text =
+                    "Specialization score: " + __instance.building.Data.specializationScore;
+                Plugin.Log.LogInfo("TEST");
             }
         }
     }
