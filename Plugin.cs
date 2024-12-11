@@ -13,7 +13,7 @@ public class Plugin : BasePlugin
 {
     private const string Guid = "captnced.SimpleSpecializationsCustomizer";
     private const string Name = "SimpleSpecializationsCustomizer";
-    private const string Version = "1.1.1";
+    private const string Version = "1.1.2";
     internal new static ManualLogSource Log;
     internal static ConfigFile config;
     internal static HashSet<Building> buildings;
