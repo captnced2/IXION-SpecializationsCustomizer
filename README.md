@@ -6,7 +6,7 @@ Thanks to [XSNomad](https://github.com/XSNomad) for a bit of example code to jum
 
 # Installation
 Simply download [BepInEx](https://github.com/BepInEx/BepInEx/releases/tag/v6.0.0-pre.2) and extract it into your IXION ("\steamapps\common\IXION\") folder.  
-Then download an put the latest release into the plugins ("\IXION\BepInEx\plugins\") folder.  
+Then download and put the latest release into the plugins ("\IXION\BepInEx\plugins\") folder.  
 Finally run the game once to generate the config file (located in "\IXION\BepInEx\config\").
 
 # How to use
