@@ -1,5 +1,5 @@
 # SpecializationsCustomizer
-[nexusmods](https://www.nexusmods.com/ixion/mods/8)
+[Nexusmods](https://www.nexusmods.com/ixion/mods/8)  
 This mod is makes customizing IXION building specializations easy. Everything is simply changed via the config file.  
 It's built for BepInEx IL2Cpp version 6.0.0-pre.2. Every BepInEx BE built should work but 6.0.0-pre.2 is the most stable and recommended.  
 <br>
