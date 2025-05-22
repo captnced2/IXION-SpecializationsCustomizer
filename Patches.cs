@@ -113,11 +113,8 @@ public class Patches
             }
 
             if (__instance.transform.name.Equals("UI Window Building Docking Bay"))
-            {
                 __instance.effectBuilding.txtEffectDesc.text =
                     "Specialization score: " + __instance.building.Data.specializationScore;
-                Plugin.Log.LogInfo("TEST");
-            }
         }
     }
 }

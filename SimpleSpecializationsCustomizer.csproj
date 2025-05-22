@@ -30,6 +30,9 @@
         <Reference Include="Il2CppSystem.Core">
             <HintPath>libs\Il2CppSystem.Core.dll</HintPath>
         </Reference>
+        <Reference Include="IMHelper">
+          <HintPath>..\NoSeizureWarning\libs\IMHelper.dll</HintPath>
+        </Reference>
         <Reference Include="Sirenix.Serialization">
             <HintPath>libs\Sirenix.Serialization.dll</HintPath>
         </Reference>
